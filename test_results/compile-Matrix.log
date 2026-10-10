@@ -1,0 +1,8 @@
+# fqbn: esp32:esp32:esp32s3:FlashSize=32M,PSRAM=opi,PartitionScheme=app5M_fat24M_32MB,CDCOnBoot=cdc
+
+Sketch uses 1081107 bytes (22%) of program storage space. Maximum is 4718592 bytes.
+Global variables use 51632 bytes (15%) of dynamic memory, leaving 276048 bytes for local variables. Maximum is 327680 bytes.
+In file included from <repo>\firmware\Matrix\ESP32-HUB75-MatrixPanel-I2S-DMA.cpp:15:
+<repo>\firmware\Matrix\platforms\esp32s3\gdma_lcd_parallel16.cpp:21:19: note: '#pragma message: Compiling for ESP32-S3'
+   21 |   #pragma message "Compiling for ESP32-S3"
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~

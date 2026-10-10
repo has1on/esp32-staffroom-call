@@ -1,0 +1,4 @@
+studentId,class,maskedName,displayName,audioFile
+00001,2A,陳○文,陳大文,/students/000001.wav
+99999,2A,陳○文,陳大文,/students/TEST001.wav
+00002,2B,林○晴,林小晴,/students/000002.wav

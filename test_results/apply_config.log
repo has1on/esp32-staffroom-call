@@ -1,0 +1,30 @@
+已換上新的 DEVICE_KEY（舊檔備份為 staffroom_config.h.bak）
+  熱點密碼會跟著變成：2748083981b3
+====================================================================
+  這一套的身份      SYSTEM_ID = ROOM_A
+  熱點名稱          Staffroom-ROOM_A-Audio
+  熱點密碼          2748083981b3
+  語音機要連的網路  （無 → 純熱點模式）
+  門口機找語音機用  192.168.4.1
+  矩陣屏            （未安裝）
+====================================================================
+
+有 6 項提醒：
+  1. AUDIO_PINS_CONFIRMED = false → 語音機不會初始化 SD 卡和喇叭，現在燒上去是沒有聲音的。確認接線後改成 true。
+  2. CONSOLE_PIN 還是 CHANGE_ME → 網頁控制台等於是沒有鎖。請改掉。
+  3. NETWORK_ADMIN_PIN 不合格（要 6~12 個英數字）→ 門口機的「網絡設定」頁會拒絕解鎖。
+  4. BANNER_PASSWORD 還是 CHANGE_ME → 門口機的歡迎語功能會被拒絕。
+  5. MATRIX_IP 是空的 → 沒有矩陣屏，系統照常運作。
+  6. AUDIO_WIFI_SSID 是空的 → 純熱點模式：語音機不連任何外部網路，只開自己的熱點給門口機連。這是建議的預設值。
+
+已產生 6 個檔案（舊的已備份成 .bak）：
+  firmware\Door\config.h
+  firmware\Audio\config.h
+  firmware\Matrix\config.h
+  firmware\Door\NetworkDefaults.h
+  firmware\Audio\NetworkDefaults.h
+  firmware\Matrix\NetworkDefaults.h
+
+下一步：
+  1. py -X utf8 tools/generate_fonts.py          # 名冊或歡迎語改了才需要
+  2. 照 docs/燒錄與硬體.md 編譯並燒錄三塊板子

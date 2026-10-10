@@ -1,0 +1,4 @@
+# fqbn: esp32:esp32:esp32s3:FlashSize=16M,PSRAM=opi,PartitionScheme=app3M_fat9M_16MB,CDCOnBoot=cdc
+
+Sketch uses 1169067 bytes (37%) of program storage space. Maximum is 3145728 bytes.
+Global variables use 73592 bytes (22%) of dynamic memory, leaving 254088 bytes for local variables. Maximum is 327680 bytes.

@@ -1,0 +1,3 @@
+# 執行本專案工具所需的 Python 套件
+#     py -m pip install -r requirements.txt
+Pillow>=10.0          # tools/generate_fonts.py 產生中文點陣字庫

@@ -1,0 +1,78 @@
+PASS 202 queued accepted
+PASS duplicate playing accepted
+PASS done accepted
+PASS playback failure never success
+PASS mismatched request or boot locked
+PASS unknown state never success
+PASS timeout locked
+PASS malformed JSON locked
+PASS server error locked
+PASS HTTP timeout locked
+PASS Audio restart locked
+PASS conflicting request locked
+PASS known full queue refusal
+PASS known key refusal
+PASS known missing ID refusal
+PASS wrong HTTP path not trusted
+PASS retry at nine-minute boundary
+PASS retry after nine minutes blocked
+PASS retry clock wrap-safe
+PASS student BOM accepted
+PASS exact student match with leading zeros
+PASS leading zeros not discarded
+PASS lowercase rejected
+PASS duplicate match rejected
+PASS malformed suffix cannot hide after match
+PASS full-name header rejected
+PASS quoted comma parsed
+PASS teacher roster loaded
+PASS duplicate teacher ID rejected
+PASS more than 15 teachers rejected
+PASS E plus five alias accepts digits only
+PASS E alias collision rejected
+PASS missing student file rejected
+PASS five digits preserve leading zeros
+PASS non-five-digit UI ID rejected
+PASS non-five-digit UI ID rejected
+PASS non-five-digit UI ID rejected
+PASS non-five-digit UI ID rejected
+PASS non-five-digit UI ID rejected
+PASS non-five-digit UI ID rejected
+PASS unicast IPv4 accepted
+PASS unicast IPv4 accepted
+PASS unicast IPv4 accepted
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS malformed/reserved IPv4 rejected
+PASS open Wi-Fi supported
+PASS short WPA password blocked
+PASS WPA password accepted
+PASS enterprise fails closed without CA
+PASS enterprise accepts installed CA
+PASS explicit insecure EAP opt-in works
+PASS enterprise username required
+PASS ten numeric keys, clear/delete/next, network and welcome
+PASS input hitboxes in bounds and disjoint
+PASS 15 teachers plus back button
+PASS teacher hitboxes in bounds and disjoint
+PASS confirmation hitboxes disjoint
+PASS demo completion next-student only
+PASS uncertain request has query and same-request retry only
+PASS uncertain request hitboxes disjoint
+PASS expired request cannot retry
+PASS configuration error permits network recovery only
+PASS PIN keyboard disjoint
+PASS network status controls disjoint
+PASS Wi-Fi form disjoint
+PASS network editor keys disjoint
+PASS network editor keys disjoint
+PASS network editor keys disjoint
+PASS welcome password controls preserved
+PASS frozen request has no management entry
+ALL 77 checks passed. Host mocks, NOT hardware verification.

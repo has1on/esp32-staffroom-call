@@ -1,0 +1,49 @@
+# ── 工具產生的檔案，不要進版控 ────────────────────────────────
+firmware/Door/config.h
+firmware/Audio/config.h
+firmware/Matrix/config.h
+firmware/Door/NetworkDefaults.h
+firmware/Audio/NetworkDefaults.h
+firmware/Matrix/NetworkDefaults.h
+firmware/staffroom_config.h.bak
+firmware/*/config.h.bak
+firmware/*/NetworkDefaults.h.bak
+firmware/*/*.bak
+firmware/*/*.pending
+
+# ── 只有你自己的安裝才有意義的檔案，不該上傳 ──────────────────
+# 名冊、錄音、卡片內容、學校憑證、你填好的設定
+sd_mine/
+my_rosters/
+*.pem
+school-ca.pem
+students.csv
+teachers.csv
+!sd_templates/**/students.csv
+!sd_templates/**/teachers.csv
+!master_templates/*.csv
+!sd_first_test/**/*.csv
+recording/
+recordings/
+*.wav
+!chime.wav
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── 編輯器 / 系統 ─────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 建置產物 ──────────────────────────────────────────────
+build/
+*.bin
+*.elf
+*.map
+!firmware/**/*.bin
